@@ -1,0 +1,147 @@
+---
+title: "Fundamentos Estadistica"
+author: 
+- Fabio Leonardo Tarazona Bernal
+- Dagoberto Salgado Horta
+subtitle: "ESTADISTICA I CETAP"
+date: "2026-05-03"
+output: html_document
+---
+
+# Historia de la Estadística
+
+![](img/img1.jpg){width="389"}
+
+La estadística tiene su origen en la necesidad de los primeros Estados de organizar y controlar información sobre su población, recursos y actividades económicas. Desde las civilizaciones antiguas, como [Egipto](https://es.wikipedia.org/wiki/Rep%C3%BAblica_Popular_China), [Babilonia](https://es.wikipedia.org/wiki/Babilonia_(reino)) y [China](https://es.wikipedia.org/wiki/Rep%C3%BAblica_Popular_China), se realizaban censos y registros con fines administrativos, fiscales y militares, lo que evidencia que, aunque no existía como ciencia formal, ya se utilizaban prácticas estadísticas para la toma de decisiones. Estos aportes fueron fundamentales porque establecieron las primeras formas de recolección y organización de datos, permitiendo a los gobernantes planificar mejor sus territorios y recursos.
+
+Con el paso del tiempo, la estadística evolucionó significativamente, especialmente durante la Edad Moderna, cuando comenzó a desarrollarse como disciplina científica. En Europa, figuras como [John Graunt](https://www.lifeder.com/john-graunt/) y [William Petty](https://psicologiaymente.com/biografias/william-petty) impulsaron el análisis cuantitativo de fenómenos sociales, dando origen a la llamada “aritmética política”. Posteriormente, el desarrollo de la teoría de la probabilidad y el aporte de matemáticos como [Pierre-Simon Laplace](https://www.biografiasyvidas.com/biografia/l/laplace.htm) consolidaron las bases teóricas de la estadística moderna. En la actualidad, la estadística es una herramienta indispensable en múltiples campos, especialmente en la administración pública, donde permite analizar información, evaluar políticas públicas y tomar decisiones basadas en evidencia, contribuyendo a una gestión más eficiente, transparente y orientada al bienestar social.
+
+### Linea de tiempo
+
+![](img/1.jpg){width="1002"} ![](img/2.jpg){width="1016"}
+
+# Conceptos Fundamentales de la Estadística
+
+## Estadística descriptiva
+
+La estadística descriptiva es la rama de la estadística que se encarga de recolectar, organizar, procesar y presentar datos de manera estructurada, con el fin de describir sus características principales. Para ello utiliza herramientas como tablas, gráficos y medidas numéricas (media, mediana, moda), que permiten sintetizar grandes volúmenes de información en una forma comprensible. Su alcance se limita a los datos observados, sin pretender realizar generalizaciones o predicciones sobre una población más amplia.
+
+### Ejemplo
+
+Un funcionario de una alcaldía revisa el informe mensual del programa de subsidios y observa que en promedio cada familia recibió cierto monto de ayuda, además de ver gráficos que muestran cuántos beneficiarios hay en cada barrio. Con esta información logra entender cómo se distribuyeron los recursos, pero no intenta predecir qué ocurrirá en el futuro.
+
+## Estadística inferencial
+
+La estadística inferencial es la rama que permite analizar datos obtenidos de una muestra para realizar estimaciones, conclusiones o predicciones sobre una población. Se fundamenta en la teoría de la probabilidad y en métodos matemáticos que permiten medir el grado de incertidumbre asociado a dichas inferencias, garantizando cierto nivel de confianza en los resultados obtenidos.
+
+### Ejemplo
+
+Un analista del gobierno aplica una encuesta a un grupo de ciudadanos sobre la calidad del servicio de salud. Aunque solo encuestó a una parte de la población, utiliza esos resultados para concluir que, en general, la mayoría de los habitantes del municipio está insatisfecha con el servicio.
+
+## Población
+
+La población es el conjunto total de individuos, elementos o unidades de análisis que comparten una característica común y que constituyen el objeto de estudio en una investigación estadística. Puede estar conformada por personas, hogares, instituciones o cualquier otro tipo de unidad relevante para el análisis, dependiendo del propósito del estudio.
+
+### Ejemplo
+
+Un equipo de la administración municipal decide analizar el acceso al agua potable y define como población a todos los habitantes del municipio, ya que todos son potenciales usuarios de este servicio.
+
+## Muestra
+
+La muestra es un subconjunto de la población que se selecciona con el propósito de realizar el estudio estadístico. Su característica fundamental es la representatividad, es decir, debe reflejar de manera adecuada las características de la población para que los resultados obtenidos puedan ser válidos y útiles en la toma de decisiones.
+
+### Ejemplo
+
+Un grupo de encuestadores visita distintos barrios del municipio y selecciona a varios ciudadanos de diferentes edades y condiciones sociales para hacerles preguntas sobre el servicio de agua. Aunque no hablan con todos, trabajan con ese grupo como representación de toda la población.
+
+## Parámetro
+
+El parámetro es una medida numérica que describe una característica específica de toda la población, como un promedio, una proporción o una tasa. Es un valor fijo que, en la mayoría de los casos, no se conoce con exactitud y debe ser estimado a partir de datos muestrales mediante métodos estadísticos.
+
+### Ejemplo
+
+Una entidad como DANE publica la tasa oficial de desempleo del país. Ese valor representa a toda la población económicamente activa y se considera el dato real que describe esa situación a nivel nacional.
+
+## Estadístico
+
+El estadístico es una medida numérica calculada a partir de los datos obtenidos de una muestra. Su función principal es servir como estimación del parámetro poblacional, permitiendo aproximarse al valor real cuando no es posible analizar a toda la población.
+
+### Ejemplo
+
+Un analista calcula el promedio de ingresos de las personas que encuestó en varios barrios. Ese resultado no representa a toda la población directamente, pero le sirve como una aproximación del ingreso promedio del municipio.
+
+## Muestreo
+
+El muestreo es el proceso mediante el cual se selecciona una muestra a partir de una población, siguiendo criterios y métodos específicos que buscan garantizar su representatividad. Existen diferentes tipos de muestreo, como el aleatorio, estratificado o sistemático, y la elección del método depende de los objetivos del estudio y de las características de la población.
+
+### Ejemplo
+
+Un equipo técnico decide no elegir personas al azar sin control, sino dividir el municipio por zonas y luego seleccionar ciudadanos de cada sector. De esta manera se aseguran de que la muestra incluya tanto zonas urbanas como rurales.
+
+## Sesgo
+
+El sesgo es un error sistemático que se presenta cuando los resultados de un estudio se desvían de la realidad de la población, debido a fallas en la selección de la muestra, en la recolección de los datos o en su interpretación. Este tipo de error afecta la validez de las conclusiones y puede llevar a decisiones incorrectas.
+
+### Ejemplo
+
+Un funcionario decide aplicar encuestas únicamente en el centro de la ciudad porque es más fácil y rápido. Al analizar los resultados, concluye que todos los ciudadanos tienen buen acceso a los servicios públicos, sin darse cuenta de que dejó por fuera a las zonas rurales donde la situación es muy diferente.
+
+# Variables Estadísticas
+
+## a) Concepto de variable
+
+En estadística, una variable es una característica o atributo de los individuos o elementos que hacen parte de una población o una muestra, la cual puede tomar diferentes valores y, por esa razón, puede ser observada, medida o clasificada dentro de un estudio. Estas variables constituyen la base del análisis estadístico, ya que representan la información que se recoge para comprender un fenómeno determinado y apoyar la toma de decisiones. En el contexto de la administración pública, esto se evidencia cuando un funcionario analiza un programa social y trabaja con datos como la edad de los beneficiarios, su nivel de ingresos o el tipo de vivienda en el que habitan; al revisar cómo varían estas características entre distintos grupos, logra identificar patrones y evaluar si los recursos están siendo asignados de manera adecuada a la población que realmente lo necesita.
+
+## b) Clasificación según su naturaleza
+
+### Variables cualitativas
+
+Las variables cualitativas son aquellas que describen características o cualidades que no pueden expresarse numéricamente, sino mediante categorías o atributos. Estas variables permiten clasificar a los individuos según sus características y se dividen en nominales y ordinales.
+
+#### Cualitativas nominales
+
+Son aquellas que clasifican los datos en categorías sin ningún tipo de orden o jerarquía entre ellas, es decir, las categorías son simplemente diferentes entre sí, pero no se pueden organizar de mayor a menor ni viceversa. Un funcionario de una alcaldía revisa una base de datos de beneficiarios de un programa social y observa que están clasificados según el tipo de afiliación al sistema de salud (contributivo, subsidiado o no afiliado). Al analizar esta información, comprende cómo se distribuyen los beneficiarios, pero sabe que ninguna categoría es “mayor” o “menor” que otra.
+
+### Cualitativas ordinales
+
+Son variables que también clasifican en categorías, pero a diferencia de las nominales, sí existe un orden o jerarquía entre ellas, aunque no se puede medir la distancia exacta entre una categoría y otra. Un analista del sector público evalúa la calidad del servicio de atención al ciudadano y clasifica las respuestas como “malo”, “regular” y “bueno”. Al revisar los resultados, entiende que existe un orden lógico entre las categorías, aunque no puede cuantificar exactamente cuánto mejor es “bueno” respecto a “regular”.
+
+### Variables cuantitativas
+
+Las variables cuantitativas son aquellas que se expresan mediante valores numéricos y representan cantidades medibles. Permiten realizar operaciones matemáticas y se dividen en discretas y continuas.
+
+#### Cuantitativas discretas
+
+Son variables que toman valores numéricos enteros y contables, es decir, no admiten valores intermedios o decimales dentro de su contexto. Un funcionario analiza el número de personas que reciben un subsidio en distintos hogares y registra valores como 1, 2 o 3 beneficiarios por familia. Al revisar los datos, entiende que no puede haber 2.5 personas, por lo que se trata de una variable discreta.
+
+#### Cuantitativas continuas
+
+Son variables que pueden tomar cualquier valor dentro de un intervalo, incluyendo números decimales, ya que resultan de mediciones y no de conteos. Un técnico de una entidad pública mide el ingreso mensual de los ciudadanos y encuentra valores como 1.200.000 o 1.350.500 pesos. Al analizar esta información, reconoce que los datos pueden tomar infinitos valores dentro de un rango, por lo que está trabajando con una variable continua.
+
+## C) Escalas de medición)
+
+| Variable Tipo Naturaleza | Escala de Medición | Ejemplo en administración publica | Justificación |
+|------------------|------------------|------------------|------------------|
+| Cualitativa Nominal | Cuantitativas | Los Departamento de residencia (Ej: Santander, Antioquia, Valle). | Representa categorías que no tienen un orden intrínseco. Solo sirven para identificar y etiquetar grupos de ciudadanos. |
+| Cualitativa Nominal | Ordinal | Categoría de municipios, es decir, si son 1, 2, 3, 4, 5 y 6. Esta es definida por la Contaduría General de la Nación y la Contraloría. | Existe un orden jerárquico basado en capacidad administrativa y población, donde la Categoría Especial es la de mayor rango. |
+| Cuantitativa Discreta | De Razón | Número de contratos estatales firmados por una entidad en el SECOOP II. | Son valores numéricos enteros. Existe un "cero absoluto" que indica la ausencia total de contratos. |
+| Cuantitativas | De Intervalo | Temperatura promedio de una región para planes de gestión del riesgo. | Aunque es un valor numérico, el cero es arbitrario (no significa ausencia de temperatura) y se enfoca en la diferencia entre rangos. |
+
+# Aplicaciones en la Administración Pública
+
+## Indicadores de gestión
+
+En la administración pública, los indicadores de gestión permiten medir el desempeño de las entidades estatales en relación con sus objetivos, facilitando el seguimiento, control y mejora de los procesos. Estos indicadores transforman datos en información útil para evaluar la eficiencia, eficacia y calidad de los servicios públicos. Un director de una entidad municipal revisa el indicador de cumplimiento de metas de un programa de vivienda y observa que solo se ha ejecutado el 60% del presupuesto asignado a mitad de año. A partir de ese dato, identifica retrasos en la ejecución y toma decisiones para agilizar los procesos administrativos, reasignar recursos y garantizar que el programa cumpla sus objetivos antes de finalizar el periodo.
+
+## Evaluación de políticas públicas
+
+La estadística es fundamental para evaluar el impacto de las políticas públicas, ya que permite comparar situaciones antes y después de su implementación, así como medir si realmente están generando los resultados esperados en la población.
+Un analista del gobierno compara los niveles de deserción escolar antes y después de implementar un programa de alimentación en colegios públicos. Al analizar los datos, observa que la tasa de abandono disminuyó significativamente, lo que le permite concluir que la política está teniendo un impacto positivo y justificar su continuidad o expansión.
+
+## Análisis de pobreza
+El análisis estadístico de la pobreza permite identificar las condiciones socioeconómicas de la población, medir niveles de vulnerabilidad y orientar la asignación de recursos públicos hacia los grupos más necesitados.
+Un equipo técnico analiza datos publicados por DANE y detecta que en ciertas zonas rurales el ingreso promedio es considerablemente más bajo que en las zonas urbanas. Con esta información, los responsables de la política pública priorizan esas regiones para implementar programas de subsidios, empleo y desarrollo social.
+
+## Cobertura en salud o educación
+La estadística permite medir el acceso de la población a servicios esenciales como la salud y la educación, a través de indicadores de cobertura que muestran qué porcentaje de la población está siendo atendida.
+Un funcionario del sector salud revisa los registros de vacunación y nota que en algunos barrios la cobertura no supera el 70%. Al identificar estas brechas, organiza jornadas de vacunación en esas zonas específicas, buscando aumentar la cobertura y prevenir enfermedades en la población más vulnerable.
